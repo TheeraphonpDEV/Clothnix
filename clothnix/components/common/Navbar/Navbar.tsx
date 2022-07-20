@@ -14,7 +14,7 @@ const Navbar: FC = () => {
         <div className="flex flex-1 items-center">
           <Link href="/">
             <a className={s.logo}>
-              NEXT_STORE
+              CLOTHNIX
             </a>
           </Link>
           <nav className="ml-6 space-x-6">
