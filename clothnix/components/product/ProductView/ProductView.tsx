@@ -10,7 +10,6 @@ import { Choices, getVariant } from '../helpers'
 import { useUI } from '@components/ui/context'
 import useAddItem from "@framework/cart/use-add-item"
 
-
 interface Props {
   product: Product
 }
@@ -27,12 +26,12 @@ const ProductView: FC<Props> = ({ product }) => {
     try {
       const item = {
         productId: String(product.id),
-        variantId: variant?.id,
-        variantOptions: variant?.options
+        variantId: String(variant?.id),
+        variantOptions: variant?.options,
+        quantity: 1
       }
 
       const output = await addItem(item)
-      alert(JSON.stringify(output))
       openSidebar()
     } catch {}
   }
