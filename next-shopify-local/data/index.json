@@ -4,7 +4,7 @@
     "__typename": "Checkout",
     "webUrl": "test_webUrl",
     "subtotalPriceV2": {
-      "amount": 340,
+      "amount": 300,
       "currencyCode": "EUR"
     },
     "totalTaxV2": {
@@ -12,7 +12,7 @@
       "currencyCode": "EUR"
     },
     "totalPriceV2": {
-      "amount": 340,
+      "amount": 300,
       "currencyCode": "EUR"
     },
     "completedAt": null,
@@ -299,7 +299,7 @@
       },
       {
         "variantId": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80MDQxNDM2NjMzNTE2Mw==",
-        "quantity": 3,
+        "quantity": 2,
         "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80MDQxNDM2NjMzNTE2Mw==__LI",
         "title": "Cool Hat",
         "variant": {
@@ -577,7 +577,7 @@
       },
       {
         "variantId": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80MDQxNDM2NjQzMzQ2Nw==",
-        "quantity": 4,
+        "quantity": 3,
         "id": "Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0VmFyaWFudC80MDQxNDM2NjQzMzQ2Nw==__LI",
         "title": "Cool Hat",
         "variant": {
